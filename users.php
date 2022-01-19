@@ -22,7 +22,7 @@ include '/OpenServer/domains/library/vendor/controllers/user-controllers/users-l
         <div class="logo">
             <h1>Список пользователей</h1>
         </div>
-
+   
         <div>
             <a href="/vendor/controllers/quit.php"><button class="quit">Выйти</button></a>
         </div>
