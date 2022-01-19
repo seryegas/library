@@ -1,0 +1,80 @@
+body {
+    background-color: rgb(188, 211, 240);
+}
+
+.back-to-menu {
+    top: 70%;
+    left: 37%;
+    width: 250px;
+    height: 50px;
+}
+
+.registration {
+    top: 70%;
+    left: 52%;
+    width: 200px;
+    height: 50px;
+}
+
+.email {
+    width: 40%;
+    height: 10%;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    border-radius: 15px;
+    font-size: 22px; 
+}
+
+.sigh-in-form {
+    background-color: lightsteelblue;;
+    width: 60%;
+    height: 70%;
+    position: absolute;
+    top: 15%;
+    left: 20%;
+}
+
+.password {
+    width: 40%;
+    height: 10%;
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    border-radius: 15px;
+    font-size: 22px; 
+}
+
+button {
+    border-radius: 3px;
+    width: 30%;
+    height: 10%;
+    position: absolute;
+    top: 60%;
+    left: 35%;
+    border-radius: 15px;
+    font-size: 22px; 
+    background-color: rgb(92, 112, 141);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #edf0f1;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #edf0f1;
+    text-decoration: none;
+    white-space: nowrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    background-color: #23252a;
+}

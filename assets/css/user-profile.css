@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin    : 0;
+    padding   : 0;
+}
+
+.logo {
+    cursor         : pointer;
+    font-family    : 'Open Sans', sans-serif;
+    font-weight    : 500;
+    color          : #edf0f1;
+    text-decoration: none;
+    white-space    : nowrap;
+}
+
+button {
+    cursor         : pointer;
+    font-family    : 'Open Sans', sans-serif;
+    font-weight    : 500;
+    font-size      : 16px;
+    color          : #edf0f1;
+    text-decoration: none;
+}
+
+div a {
+    cursor          : pointer;
+    font-family     : 'Open Sans', sans-serif;
+    font-weight     : 800;
+    font-size       : 16px;
+    color           : #edf0f1;
+    text-decoration : none;
+    padding         : 10px;
+}
+
+.sign_in {
+    float: right;
+}
+
+.quit {
+    background-color: rgb(199, 53, 53);
+}
+
+.menu {
+    width: 0;
+    
+}
+
+header {
+    display         : flex;
+    justify-content : space-between;
+    align-items     : center;
+    padding         : 20px 4%;
+    background-color: #23252a;
+}
+
+button {
+    width           : 200px;
+    padding         : 9px 25px;
+    margin-right    : 20px;
+    background-color: teal;
+    border          : none;
+    border-radius   : 50px;
+    cursor          : pointer;
+    transition      : all .3s ease 0s;
+}
+
+button:hover {
+    background-color: lightseagreen;
+
+}
+
+aside {
+    display         : flex;
+    margin-top      : 50px;
+    margin-left     : 50px;
+    width           : 15%;
+    float           : left;
+    background-color: rgb(188, 211, 240);
+    min-height      : 580px;
+}
+
+section {
+    display         : flex;
+    margin-top      : 50px;
+    margin-left     : 50px;
+    width           : 75%;
+    float           : left;
+    background-color: rgb(188, 211, 240);
+    min-height      : 580px;
+    flex-direction  : column;
+}
+
+body {
+    background-color: lightsteelblue;
+}
+
+section img {
+    float      : left;
+    margin-left: 30px;
+    margin-top : 30px;
+    width      : 180px;
+    height     : 240px;
+}
+
+div p {
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 30px;
+    margin-top : 30px;
+    font-size  : 16px;
+}
+
+.buttons {
+    align-items: center;
+}
+
+li {
+    margin: 25px 0px 20px 20px;
+    line-height: 2;
+}
+
+label {
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+input, textarea{
+    margin       : 20px 0px;
+    padding      : 10px;
+    border       : unset;
+    border-bottom: 2px solid #e3e3e3;
+    outline      : none;
+}
+
+form {
+    margin        : 30px 30px;
+    display       : flex;
+    flex-direction: column;
+    max-width     : 30%;
+}
+
+div img {
+    float : left;
+    margin: 30px 0px 15px 30px;
+    width : 180px;
+    height: 240px;
+}
+
+.change_pass {
+    flex-direction: row;
+    float         : left;
+    background    : none;
+}
+
+.contan {
+    display: flex;
+}
+
+img {
+    float: left;
+}
+
+.user_data {
+    float: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.col {
+    font-family    : 'Open Sans', sans-serif;
+    margin: 15px 15px;
+}
+
+.col h2 {
+    margin-top: 20px;
+}
+
+.books_list {
+    background-color: #edf0f1;
+    margin: 10px 30px;
+}
+
+.description
+{
+    word-break: break-word;
+    line-clamp: 6;
+}
+
+.to_user
+{
+    color: aliceblue;
+}
+
+.bus 
+{
+    margin: 25px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bb 
+{
+    height: auto;
+}
+
+li a 
+{
+    background-color: #23252a;
+}

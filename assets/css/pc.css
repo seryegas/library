@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin    : 0;
+    padding   : 0;
+}
+
+.logo {
+    cursor         : pointer;
+    font-family    : 'Open Sans', sans-serif;
+    font-weight    : 500;
+    color          : #edf0f1;
+    text-decoration: none;
+    white-space    : nowrap;
+}
+
+li,
+a,
+button {
+    cursor         : pointer;
+    font-family    : 'Open Sans', sans-serif;
+    font-weight    : 500;
+    font-size      : 16px;
+    color          : #edf0f1;
+    text-decoration: none;
+}
+
+
+
+.sign_in {
+    float: right;
+}
+
+.quit {
+    background-color: rgb(199, 53, 53);
+}
+
+.menu {
+    width: 30%;
+}
+
+header {
+    display         : flex;
+    justify-content : space-between;
+    align-items     : center;
+    padding         : 20px 4%;
+    background-color: #23252a;
+}
+
+.nav_parts {
+    list-style: none;
+}
+
+.nav_parts li {
+    display: inline-block;
+    padding: 20px 35px;
+}
+
+.nav_parts li a {
+    transition: all .3s ease 0s;
+}
+
+.nav_parts li a:hover {
+    color: #0088a9;
+}
+
+button {
+    width           : 200px;
+    padding         : 9px 20px;
+    margin-right    : 20px;
+    background-color: teal;
+    border          : none;
+    border-radius   : 50px;
+    cursor          : pointer;
+    transition      : all .3s ease 0s;
+    white-space     : nowrap;
+}
+
+button:hover {
+    background-color: lightseagreen;
+
+}
+
+aside {
+    margin-top      : 50px;
+    margin-left     : 50px;
+    width           : 20%;
+    float           : left;
+    background-color: rgb(188, 211, 240);
+    min-height      : 580px;
+}
+
+section {
+    margin-top      : 50px;
+    margin-left     : 50px;
+    width           : 70%;
+    float           : left;
+    background-color: rgb(188, 211, 240);
+    min-height      : 580px;
+
+}
+
+body {
+    background-color: lightsteelblue;
+}
+
+button img {
+    float : left;
+    height: 23px;
+    width : 23px;
+}
+
+.profile-icon {
+    border-radius: 100px;
+    /* Радиус скругления */
+    float        : left;
+    margin-right : 5px;
+}
+
+p.clip {
+    text-overflow: ellipsis;
+    overflow     : hidden;
+}
+
+.category {
+    color: black;
+    margin     : 30px 30px auto;
+    padding    : 5px 15px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 20px;
+}
+
+.category:hover {
+    background-color: aliceblue;
+    cursor          : pointer;
+}
+
+img {
+	height: auto;
+	max-width: 100%;
+}
+.content{
+	margin-top: 50px;
+}
+.product {
+	background: #fff none repeat scroll 0 0;
+	border: 1px solid #c0c0c0;
+	height: 540px;
+	overflow: hidden;
+	padding: 25px 15px;
+	position: relative;
+	text-align: center;
+	transition: all 0.5s ease 0s;
+	margin-bottom: 20px;
+}
+.product:hover {
+	box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+}
+.product-img {
+	height: 380px;
+}
+.product-title a {
+	color: #000;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+.product-desc {
+    max-height: 60px;
+    overflow: hidden;
+}
+.product-price {
+	bottom: 15px;
+	left: 0;
+	position: absolute;
+	width: 100%;
+	color: #d51e08;
+	font-size: 18px;
+	font-weight: 500;
+}
